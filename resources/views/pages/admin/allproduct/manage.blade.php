@@ -24,6 +24,7 @@
             <!-- Menu -->
             <div class="hidden md:flex space-x-12">
                 <!-- <a href="" class="hover:text-darkGrayishBlue font-bold">Pricing</a> -->
+                <a href="/admin/dashboard" class="hover:text-darkGrayishBlue font-bold">Dashboard</a>
                 <a href="/admin/allproducts/create" class="hover:text-darkGrayishBlue font-bold">Create</a>
               
                 
@@ -44,6 +45,7 @@
          <div class="md:hidden">
             <div id="menu" class="hidden absolute flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
                 <!-- <a href="">Pricing</a> -->
+                <a href="/admin/dashboard" class="hover:text-darkGrayishBlue font-bold">Dashboard</a>
                 <a href="/admin/allproducts/create" class="hover:text-darkGrayishBlue font-bold">Create</a>
                
 

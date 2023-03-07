@@ -76,6 +76,8 @@ Route::any('/admin/authenticate', [adminController::class, 'signupauthenticate']
 
 Route::any('/admin/dashboard', [adminController::class, 'showdashboard']);
 
+Route::any('/admin/orders', [adminController::class, 'showorders']);
+
 Route::any('/admin/category/create', [productController::class, 'category']);
  
 Route::any('/admin/categoryconfig', [productController::class, 'storeCategory']);

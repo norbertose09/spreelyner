@@ -33,4 +33,8 @@ class adminController extends Controller
     public function showdashboard(){
         return view('pages.admin.dashboard');
     }
+
+    public function showorders(){
+        return view('pages.admin.orders');
+    }
 }
